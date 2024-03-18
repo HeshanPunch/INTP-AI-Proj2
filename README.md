@@ -30,6 +30,10 @@ uvicorn app.main:app --reload
 
 python.exe -m uvicorn.main app.main:app --reload
 
-### 4. Use application in browser
+### 4. Add the API Key
+
+create a .env file. Use format like: OPENAI_API_KEY="yourkeyhere"
+
+### 5. Use application in browser
 
 visit http://localhost:8000
