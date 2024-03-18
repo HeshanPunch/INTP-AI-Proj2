@@ -5,11 +5,12 @@
   </head>
   <body>
     <h1>Prompt a Model</h1>
-    <h2>Meeting Agenda Assistant</h2>
-    <p>Enter the topic or purpose of the meeting below. The assistant will help you prepare for it.</p>
-      <label for="prompt">Enter the meeting topic</label>
+    <h2>Meeting Preperation Assistatnt</h2>
+    <p>Provide the assistant with the meeting topic. The assistant will suggest an agenda and some questions to engage the attendees.</p>
+    <form method="post">
+      <label for="prompt">Meeting topic:</label>
       <input type="text" id="prompt" name="prompt" required />
-      <button type="submit">Submit</button>
+      <button type="submit">Help Me</button>
     </form>
     {% if response %}
     <h2>Response:</h2>
