@@ -15,7 +15,7 @@
       rel="stylesheet"
       type="text/css"
     />
-    <title>FastAPI Form Example</title>
+    <title>Zoom Assistant</title>
   </head>
   <body>
     <div class="mb-3 mx-auto" style="width: 50%">
@@ -45,7 +45,7 @@
             {% if input %}
             <h4 class="card-title">{{ input }}</h4>
             {% endif %} {% if response %}
-            <p class="card-text">{{ response }}</p>
+            <p class="card-text">{{ response | safe }}</p>
             {% endif %}
           </div>
         </div>
