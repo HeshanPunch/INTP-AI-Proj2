@@ -14,7 +14,7 @@ cd INTP-AI-Proj2
 
 ```
 
-### 2. Install all dependencies using either of the following:
+### 2. Install all dependencies using either of the following this installs all the python requirements as well as the Bootstrap for the UI:
 
 pip install -r requirements.txt && cd app/templates && npm i 
 
@@ -32,7 +32,7 @@ python.exe -m uvicorn.main app.main:app --reload
 
 ### 4. Add the API Key
 
-create a .env file. Use format like: OPENAI_API_KEY="yourkeyhere"
+Add your API key to the .env file. Use format like: OPENAI_API_KEY="abcd-1234". If you do not have a .env file, create one in the root directory. 
 
 ### 5. Use application in browser
 
