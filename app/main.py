@@ -14,6 +14,7 @@ async def read_form(request: Request):
 
 @app.post("/", response_class=HTMLResponse)
 async def process_form(request: Request, prompt: str = Form(...)):
+    response = ''
     # Here you can process the prompt and get the response
-    newResponse = promptHandler(prompt)
-    return templates.TemplateResponse("form.html", {"request": request, "response": newResponse, "input": prompt})
+    response = promptHandler(prompt)
+    return templates.TemplateResponse("form.html", {"request": request, "response": response, "input": prompt})

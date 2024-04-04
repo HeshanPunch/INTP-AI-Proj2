@@ -45,7 +45,7 @@
             {% if input %}
             <h4 class="card-title">{{ input }}</h4>
             {% endif %} {% if response %}
-            <p class="card-text">{{ response }}</p>
+            <p class="card-text">{{ response | safe }}</p>
             {% endif %}
           </div>
         </div>
