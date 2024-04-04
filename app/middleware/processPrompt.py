@@ -32,11 +32,9 @@ def callOpenAi(input) -> str:
   ]
 )
     response = completion.choices[0].message.content
-    print(response)
     response = addHtmlFormatting(response)
     return response
 
 def addHtmlFormatting(raw_input) -> str:
-    #TODO- add HTML formatting to the response
     cleaned_response = raw_input.replace("\n", "<br>")
     return cleaned_response
