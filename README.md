@@ -9,18 +9,18 @@ This is a FastAPI application that demonstrates basic usage.
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/OAkinbode/ET-AIModel.git
-cd ET-AIModel
+git clone url//from-repo
+cd INTP-AI-Proj2
 
 ```
 
 ### 2. Install all dependencies using either of the following:
 
-pip install -r requirements.txt
+pip install -r requirements.txt && cd app/templates && npm i 
 
 or
 
-pip3 install -r requirements.txt
+pip3 install -r requirements.txt && cd app/templates && npm i
 
 ### 3. Run the application - using mac
 
