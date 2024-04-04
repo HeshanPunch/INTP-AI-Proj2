@@ -2,7 +2,7 @@
 
 # FastAPI Application
 
-This is a FastAPI application that demonstrates basic usage.
+This is a FastAPI application that is meant as a prototype to support a project where we suggest AI tooling for Zoom. This tool will suggest agenda items and icebreaker questions for someone planning a meeting.
 
 ## Installation
 
